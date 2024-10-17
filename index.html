@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kamaleshwaran.S</title>
+    <link rel="icon" href="assets/img/Pro1.png" type="image/png"> <!-- Use a proper file format -->
+   
     <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/newcss.css" />
     <link
@@ -22,54 +24,77 @@
 
   <body oncontextmenu="return false">
     <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Kamaleshwaran.S</a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i>Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i>About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#qualification" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>Projects
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>Contact-Me
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
-        </div>
-        <div class="nav__btns">
-          <!-- Theme change button -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+        <nav class="nav container">
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <!-- Home -->
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
 
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
+                    <!-- About -->
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+
+                    <!-- Skills -->
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+
+                    <!-- Qualification -->
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+                        </a>
+                    </li>
+
+                    <!-- Projects -->
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Projects
+                        </a>
+                    </li>
+
+                    <!-- Experience -->
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="uil uil-suitcase nav__icon"></i>Experience
+                        </a>
+                    </li>
+
+                    <!-- Certifications -->
+                    <li class="nav__item">
+                        <a href="#certifications" class="nav__link">
+                            <i class="uil uil-award nav__icon"></i>Certifications
+                        </a>
+                    </li>
+
+                    <!-- Contact-Me -->
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact-Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
     </header>
-    <!-- main-->
 
     <main class="main">
       <!--========================= Home =====================-->
@@ -159,76 +184,190 @@
 
       <!--===================== SKILLS =====================-->
 
-      <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My technical level</span>
-      
-        <div class="skills__container container grid">
+<section class="skills section" id="skills">
+  <h2 class="section__title">Skills</h2>
+  <span class="section__subtitle">My technical level</span>
+
+  <div class="skills__container container grid">
+    <div>
+      <!--==================== Programming Languages =================-->
+      <div class="skills__content skills__open">
+        <div class="skills__header">
+          <i class="fas fa-code skills__icon"></i>
+
           <div>
-            <!--==================== Skill 1 =================-->
-            <div class="skills__content skills__open">
-              <div class="skills__header">
-                <i class="fas fa-pencil-ruler skills__icon"></i>
-      
-                <div>
-                  <h1 class="skills__title">Programming Languages</h1>
-                </div>
-      
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-      
-              <!-- Skill List -->
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Java</h3>
-                  </div>
-                </div>
-      
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Python</h3>
-                  </div>
-                </div>
-              </div>
+            <h1 class="skills__title">Programming Languages</h1>
+          </div>
+
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <!-- Skill List -->
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <i class="fa-brands fa-java"></i>
+              <h3 class="skills__name">Java</h3>
             </div>
-      
-            <!--==================== Skill 2 =================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="fas fa-swatchbook skills__icon"></i>
-      
-                <div>
-                  <h1 class="skills__title">Technologies</h1>
-                </div>
-      
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-      
-              <!-- Skill List -->
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Git & GitHub</h3>
-                  </div>
-                </div>
-      
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MongoDB</h3>
-                  </div>
-                </div>
-      
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MySQL</h3>
-                  </div>
-                </div>
-              </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__titles">
+              <i class="fa-brands fa-python"></i>
+              <h3 class="skills__name">Python</h3>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__titles">
+                <i class="fa-brands fa-html5"></i> <!-- Use appropriate icon for HTML -->
+                <i class="fa-brands fa-css3-alt"></i> <!-- Use appropriate icon for CSS -->
+                <h3 class="skills__name">Web Development: HTML, CSS</h3>
+            </div>
+        </div>
+
+         
+        </div>
+      </div>
+
+      <!--==================== Frameworks =================-->
+      <!--div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="fas fa-layer-group skills__icon"></i>
+
+          <div>
+            <h1 class="skills__title">Frameworks</h1>
+          </div>
+
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <i class="fa-brands fa-java"></i>
+              <h3 class="skills__name">Spring Boot</h3>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <i class="fa-brands fa-python"></i>
+              <h3 class="skills__name">Django</h3>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+
+    <div>
+      <!--==================== Databases =================-->
+      <div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="fas fa-database skills__icon"></i>
+
+          <div>
+            <h1 class="skills__title">Databases</h1>
+          </div>
+
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <!-- Skill List -->
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <i class="fas fa-database"></i>
+              <h3 class="skills__name">MySQL</h3>
+            </div>
+          </div></div>
+        </div>
+
+          <!--div class="skills__data">
+            <div class="skills__titles">
+              <i class="fa-solid fa-database"></i>
+              <h3 class="skills__name">MongoDB</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--==================== Version Control =================-->
+      <div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="fas fa-gear skills__icon"></i>
+
+          <div>
+            <h1 class="skills__title">Version Control</h1>
+          </div>
+
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <i class="fa-brands fa-git-alt"></i>
+              <h3 class="skills__name">Git</h3>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__titles">
+              <i class="fa-brands fa-github"></i>
+              <h3 class="skills__name">GitHub</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <!--==================== DSA =================-->
+      <!--div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="fas fa-brain skills__icon"></i>
+
+          <div>
+            <h1 class="skills__title">Algorithms & Data Structures</h1>
+          </div>
+
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <!-- Skill List -->
+        <!--div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <i class="fas fa-code-branch"></i>
+              <h3 class="skills__name">DSA (Data Structures and Algorithms)</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--==================== Productivity Tools =================-->
+      <div class="skills__content skills__close">
+        <div class="skills__header">
+          <i class="fas fa-tools skills__icon"></i>
+
+          <div>
+            <h1 class="skills__title">Productivity Tools</h1>
+          </div>
+
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+
+        <!-- Skill List -->
+        <div class="skills__list grid">
+          <div class="skills__data">
+            <div class="skills__titles">
+              <i class="fa-solid fa-file-word"></i>
+              <h3 class="skills__name">MS Office(Microsoft Office)</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
       
 
       <!--==================== Qualifications ==================-->
@@ -280,7 +419,7 @@
                   <div class="services__modal">
                     <div class="services__modal-content">
                       <h4 class="services__modal-title">
-                        SSLC:
+                        10th Summary: 
                       </h4>
                       <i class="uil uil-times services__modal-close"></i>
                       <ul class="services__modal-services grid">
@@ -337,7 +476,7 @@
                   <div class="services__modal">
                     <div class="services__modal-content">
                       <h4 class="services__modal-title">
-                       HSC
+                       12th Summary:
                       </h4>
                       <i class="uil uil-times services__modal-close"></i>
                       <ul class="services__modal-services grid">
@@ -365,7 +504,7 @@
               <!--====== Qualification 3 ======-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">College</h3>
+                  <h3 class="qualification__title">UG (B.E)</h3>
                   <span class="qualification__subtitle"
                     >Aalim Muhammed Salegh College of Enginnering, Chennai</span
                   >
@@ -554,6 +693,93 @@ Network & Deep Learning.
           <div class="swiper-pagination"></div>
         </div>
       </section>
+
+   <!-- Experience Section -->
+   <section class="experience section" id="experience">
+    <h2 class="section__title">Experience</h2>
+    <div class="experience__container container grid">
+        <!-- Experience Item -->
+        <div class="experience__content">
+            <h3 class="experience__title">Java Intern</h3>
+            <span class="experience__subtitle">Slash Mark (IT Startup)</span>
+            <span class="experience__date">Aug 2024 - Oct 2024</span>
+            <p class="experience__description">
+                Developing and maintaining Java-based applications, collaborating with the team through virtual meetings, and gaining hands-on experience in coding and debugging while working flexibly from a remote location.
+            </p>
+        </div>
+        </div>
+        </section>
+        <!-- Repeat the structure for more experiences -->
+        <!--div class="experience__content">
+            <h3 class="experience__title">Software Engineer Intern</h3>
+            <span class="experience__subtitle">Another Company</span>
+            <span class="experience__date">Jun 2023 - Aug 2023</span>
+            <p class="experience__description">
+                Assisted in developing web applications and performing code reviews, enhancing skills in front-end technologies.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- Certifications Section -->
+<section class="certifications section" id="certifications">
+  <h2 class="section__title">Certifications</h2>
+  <div class="certifications__container container grid">
+      <!-- Certification Item 1 -->
+      <div class="certifications__content">
+          <h3 class="certifications__title">NPTEL - Programming in Java</h3>
+          <span class="certifications__subtitle">National Programme on Technology Enhanced Learning</span>
+          <p class="certifications__description">A comprehensive course covering fundamental and advanced Java programming concepts.</p>
+      </div>
+
+      
+
+      <!-- Certification Item 3 -->
+      <div class="certifications__content">
+          <h3 class="certifications__title">MongoDB Node.js Developer Path</h3>
+          <span class="certifications__subtitle">SmartBridge</span>
+          <p class="certifications__description">Focused on building applications using MongoDB and Node.js, covering best practices and development techniques.</p>
+      </div>
+
+      <!-- Certification Item 4 -->
+      <div class="certifications__content">
+          <h3 class="certifications__title">Git & GitHub</h3>
+          <span class="certifications__subtitle">Coursera</span>
+          <p class="certifications__description">Comprehensive course on version control and collaboration using Git and GitHub.</p>
+      </div>
+
+      <!-- Certification Item 5 -->
+      <div class="certifications__content">
+          <h3 class="certifications__title">Python</h3>
+          <span class="certifications__subtitle">Guvi</span>
+          <p class="certifications__description">Course covering Python programming fundamentals and advanced concepts.</p>
+      </div>
+
+      <!-- Certification Item 6 -->
+      <div class="certifications__content">
+          <h3 class="certifications__title">Fundamentals of Cybersecurity with Kali Linux</h3>
+          <span class="certifications__subtitle">IBM Skillsbuild (TNSDC)</span>
+          <p class="certifications__description">Introduction to cybersecurity principles and practices using Kali Linux.</p>
+      </div>
+
+      <!-- Certification Item 7 -->
+      <div class="certifications__content">
+          <h3 class="certifications__title">IR4.0 Foundation Course</h3>
+          <span class="certifications__subtitle">Sponsored by Microsoft and SAP</span>
+          <p class="certifications__description">
+              Successful completion of the certification course supported by Naan Mudhalvan Program, Tamil Nadu Skill Development Corporation, and implemented by Edunet Foundation.
+          </p>
+      </div>
+      <!-- Certification Item 2 -->
+      <div class="certifications__content">
+        <h3 class="certifications__title">MS OFFICE 365 (Basic & Advanced Level)</h3>
+        <span class="certifications__subtitle">Microsoft</span>
+        <p class="certifications__description">Certification covering essential and advanced features of MS Office 365 applications.</p>
+    </div>
+  </div>
+</section>
+
+
+
       
 
       <!--===================== Contact Me =====================-->
@@ -640,7 +866,7 @@ Network & Deep Learning.
       <div class="footer__bg">
         <div class="footer__container container grid">
           <div>
-            <h1 class="footer__title">Kamaleshwaran</h1>
+            <h1 class="footer__title">Kamaleshwaran.S</h1>
             <span class="footer__subtitle">
               Computer Science & Engineering Student
             </span>
@@ -666,13 +892,29 @@ Network & Deep Learning.
             >
               <i class="fab fa-instagram"></i>
             </a>
-    
+          
             <a
               href="https://twitter.com/kamaleshwaran_3"
               class="footer__social"
               target="_blank"
             >
               <i class="fab fa-twitter"></i>
+            </a>
+          
+            <a
+              href="https://github.com/kamaleshwaran11"
+              class="footer__social"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          
+            <a
+              href="https://www.linkedin.com/in/kamaleshwaran11/"
+              class="footer__social"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
             </a>
           </div>
         </div>

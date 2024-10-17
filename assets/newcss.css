@@ -292,7 +292,7 @@ img {
 }
 
 .home__blob-img {
-  width: 60%; /* The image fills the container */
+  width: 80%; /* The image fills the container */
   height: auto; /* Maintains the image aspect ratio */
   object-fit: cover; /* Ensures the image covers the container fully */
   border-radius: 20px; /* Rounds the 4 corners */
@@ -1168,4 +1168,68 @@ img {
   .button--white {
     bottom: -4.5rem;
   }
+}
+.experience {
+  padding: 20px 0;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.experience__content {
+  background-color: #ffffff; /* White background */
+  padding: 20px; /* Inner spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+/* Optional: Add hover effect */
+.experience__content:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+.certifications {
+  padding: 20px 0; /* Spacing around the certifications section */
+}
+
+.certifications__container {
+  display: grid; /* Change to flex if needed */
+  gap: 20px; /* Space between items */
+}
+
+.certifications__content {
+  background-color: #ffffff; /* White background for certification boxes */
+  padding: 20px; /* Inner spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+.certifications__content:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.certifications__title {
+  font-size: 1.5rem; /* Font size for certification title */
+  margin-bottom: 5px; /* Space below title */
+}
+
+.certifications__subtitle {
+  display: block; /* Stack this element */
+  font-size: 1rem; /* Font size for subtitle */
+  color: #666; /* Color for subtitle */
+}
+
+.certifications__description {
+  margin-top: 10px; /* Space above description */
+  line-height: 1.5; /* Improve readability */
+}
+.certifications__content,
+.experience__content {
+    background-color: var(--card-background);
+    box-shadow: 0 4px 8px var(--card-shadow);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for cards */
 }
