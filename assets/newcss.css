@@ -1233,3 +1233,95 @@ img {
     box-shadow: 0 4px 8px var(--card-shadow);
     transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for cards */
 }
+
+.Organizations {
+  text-align: left; /* Center text alignment */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  margin: 0 auto; /* Center the entire section */
+  padding: 20px; /* Add spacing around the section */
+}
+
+.Organizations h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.organization-item {
+  max-width: 600px; /* Restrict the content width */
+  width: 100%; /* Ensure responsiveness */
+}
+
+.organization-item ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  text-align: left; /* Align list items to the left */
+  margin: 0 auto; /* Center the list */
+}
+
+.organization-item ul li {
+  margin: 10px 0; /* Add space between items */
+}
+
+.organization-item a {
+  color: #007BFF; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.organization-item a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+.achievements {
+  text-align: center; /* Center text alignment */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  margin: 0 auto; /* Center the entire section */
+  padding: 20px; /* Add spacing around the section */
+}
+
+.achievements h2 {
+  font-size: 2em; /* Font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  font-weight: bold; /* Bold text for heading */
+}
+
+.achievements-item {
+  max-width: 600px; /* Restrict the content width */
+  width: 100%; /* Ensure responsiveness */
+  background-color: var(--card-bg-color); /* Use theme colors */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px; /* Add spacing inside */
+  margin: 15px 0; /* Space between items */
+  box-shadow: 0 2px 6px var(--shadow-color); /* Subtle shadow */
+  text-align: left; /* Align the content to the left */
+}
+
+.achievements-item:hover {
+  transform: scale(1.02); /* Add hover effect */
+  box-shadow: 0 4px 12px var(--shadow-color); /* Enhance shadow */
+}
+
+.achievements-item ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  text-align: left; /* Align list items to the left */
+  margin: 0; /* Remove default margin */
+}
+
+.achievements-item ul li {
+  margin: 10px 0; /* Add space between items */
+}
+
+.achievements-item a {
+  color: var(--primary-color); /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.achievements-item a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
