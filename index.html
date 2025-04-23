@@ -28,9 +28,10 @@
             
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
+                
                     <!-- Home -->
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
+                        <a href="#home" class="nav__link">
                             <i class="uil uil-estate nav__icon"></i>HOME
                         </a>
                     </li>
@@ -66,32 +67,24 @@
                     <!-- Experience -->
                     <li class="nav__item">
                         <a href="#experience" class="nav__link">
-                            <i class="uil uil-suitcase nav__icon"></i>EXPERIENCE
+                            <i class="uil uil-suitcase nav__icon"></i>EXPERIENCE & CERTIFICATIONS
                         </a>
                     </li>
-
-                    <!-- Certifications -->
+                    
                     <li class="nav__item">
-                        <a href="#certifications" class="nav__link">
-                            <i class="uil uil-award nav__icon"></i>CERTIFICATIONS
-                        </a>
-                    </li>
-
+                      <a href="#publications" class="nav__link">
+                        <i class="uil uil-award nav__icon"></i>PUBLICATIONS
+                      </a>
+                  
                     <!--Achievements-->
                     <li class="nav__item">
                       <a href="#achievements" class="nav__link">
-                        <i class="uil uil-award nav__icon"></i>ACHIEVEMENTS
+                        <i class="uil uil-award nav__icon"></i>ACHIEVEMENTS & ORGANIZATIONS
                       </a>
                     </li>
 
-                    <!--Organizations-->
-                    <li class="nav_item">
-                      <a href="#Organizations" class="nav__link">
-                        <i class="uil uil-award nav__icon"></i>ORGANIZATIONS
-                      </a>
-                    </li>
-
-                    <!-- Contact-Me -->
+                  
+                   <!-- Contact-Me -->
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
                             <i class="uil uil-message nav__icon"></i>CONTACT-ME
@@ -100,13 +93,7 @@
                 </ul>
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
-            <div class="nav__btns">
-                <!-- Theme change button -->
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
+            
         </nav>
     </header>
 
@@ -138,11 +125,12 @@
             </div>
             <div class="home__data">
               <h1 class="home__title">Hi, I'm Kamaleshwaran.S</h1>
-              <h3 class="home__subtitle">
-               Computer Science & Engineering Student
-              </h3>
+              <h4 class="home__subtitle">
+              
+              </h4>
+              <h4 class="home__subtitle">Aspiring Software Developer</h4>
               <p class="home__description">
-                A Final-year undergraduate Engineering student at
+                A Final-year undergraduate Engineering student (B.E- Computer Science & Engineering) at
                 <strong>Aalim Muhammed Salegh College of Engineering</strong>, Chennai.
               </p>
               <a href="#contact" class="button button--flex">
@@ -176,12 +164,12 @@
       
             <div class="about__info">
               <div>
-                <span class="about__info-title">08.03+</span>
+                <span class="about__info-title">08.05+</span>
                 <span class="about__info-name">CGPA</span>
               </div>
       
               <div>
-                <span class="about__info-title">04+</span>
+                <span class="about__info-title">05+</span>
                 <span class="about__info-name">Projects</span>
               </div>
             </div>
@@ -551,7 +539,7 @@ Network & Deep Learning.
                           <i
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
-                          <p>Scored an 8.03 CGPA till now.</p>
+                          <p>Scored an 8.05 CGPA till now.</p>
                         </li>
                         <li class="services__modal-service">
                           <i
@@ -590,17 +578,28 @@ Network & Deep Learning.
         <h2 class="section__title">PROJECTS</h2>
         <span class="section__subtitle">Most recent work</span>
       
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
+  <div class="portfolio__container">
+    <!-- ------------------------portfolio 2-------------------- -->
+    <div class="portfolio__content grid">
+      <img src="assets/img/portfolio1.jpeg" class="portfolio__img" />
+
+      <div class="portfolio__data">
+        <h3 class="portfolio__title">Healthcare Prediction on Diabetic Patients using Python</h3><br>
+        <a
+          href="https://github.com/Kamaleshwaran11/Healthcare-Prediction-on-Diabetes-Patients.git"
+          class="button button--flex button--small portfolio__button"
+        >
+          GitHub Repository
+          <i class="uil uil-external-link-alt button__icon"></i>
+        </a>
+      </div>
+    </div>
             <!-- ------------------------portfolio 1-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
+            <div class="portfolio__content grid">
               <img src="assets/img/portfolio5.jpg" class="portfolio__img" />
       
               <div class="portfolio__data">
-                <h3 class="portfolio__title">Medical-Management-System</h3>
-                <p class="portfolio__description">
-                  ◦ Medical-Management-System is a software solution that streamlines patient records, appointment scheduling, billing, and overall healthcare administration.</br>◦ Tools Used: Java, JDBC, MySQL
-                </p>
+                <h3 class="portfolio__title">Medical-Management-System</h3><br>  
                 <a
                   href="https://github.com/Kamaleshwaran11/Medical-Management-System.git"
                   class="button button--flex button--small portfolio__button"
@@ -611,66 +610,109 @@ Network & Deep Learning.
               </div>
             </div>
       
-            <!-- ------------------------portfolio 2-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio1.jpeg" class="portfolio__img" />
+            
       
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Healthcare Prediction on Diabetic Patients using Python</h3>
-                <p class="portfolio__description">
-                  - Developed a machine learning model to predict diabetes risk using patient clinical data. The project focused on data preprocessing, feature
-                  selection, and implementing various machine learning algorithms. The
-                  model achieved high prediction accuracy, demonstrating its potential to
-                  support early detection of diabetes through AI-driven insights.</br>
-                  - Tools Used: Python, Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.
-                </p>
-                <a
-                  href="https://github.com/Kamaleshwaran11/HealthCare-AIML.git"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-      <!-- ------------------------portfolio 6-------------------- -->
-      <div class="portfolio__content grid swiper-slide">
-        <img src="assets/img/portfolio6.png" class="portfolio__img" />
+        <!-- ------------------------portfolio 4-------------------- -->
+    <div class="portfolio__content grid">
+      <img src="assets/img/portfolio7.png" class="portfolio__img" />
 
-        <div class="portfolio__data">
-          <h3 class="portfolio__title">Freelance-MERN</h3>
-          <p class="portfolio__description">
-            - IKAC Works is a freelancing platform designed to connect clients with
-skilled freelancers. It provides an intuitive interface for project posting,
-bidding, and seamless collaboration. With a dedicated admin team focused on ensuring security and effective communication, IKAC Works
-strives to be the preferred platform for both clients and freelancers.<br>
-- Tools Used: React, JavaScript, CSS, Node.js, Express, MongoDB.
-</p>
-          <a
-            href="https://github.com/Kamaleshwaran11/Freelance-MERN.git"
-            class="button button--flex button--small portfolio__button"
-          >
-            GitHub Repository
-            <i class="uil uil-external-link-alt button__icon"></i>
-          </a>
-          <!--a
-            href="https://kamaleshwaran11.github.io/Freelance-MERN.git/"
-            class="button button--flex button--small portfolio__button"
-          >
-            Project
-            <i class="uil uil-external-link-alt button__icon"></i>
-          </a-->
-        </div>
+      <div class="portfolio__data">
+        <h3 class="portfolio__title"> SecurePass Vault - Java CLI Password Manager</h3>
+        <br>
+        <a
+          href="https://github.com/Kamaleshwaran11/SecurePass-Vault.git"
+          class="button button--flex button--small portfolio__button"
+        >
+          GitHub Repository
+          <i class="uil uil-external-link-alt button__icon"></i>
+        </a>
       </div>
+    </div>
+
+     <!-- ------------------------portfolio 4-------------------- -->
+     <div class="portfolio__content grid">
+      <img src="assets/img/portfolio8.jpg" class="portfolio__img" />
+
+      <div class="portfolio__data">
+        <h3 class="portfolio__title"> Bridge - A Implementing and Evaluating IPv6 to IPv4 communication using NAT64.</h3>
+        <br>
+        <a
+          href="https://github.com/Kamaleshwaran11/bridge.git"
+          class="button button--flex button--small portfolio__button"
+        >
+          GitHub Repository
+          <i class="uil uil-external-link-alt button__icon"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- ------------------------portfolio 6-------------------- -->
+    <div class="portfolio__content grid">
+      <img src="assets/img/portfolio6.png" class="portfolio__img" />
+
+      <div class="portfolio__data">
+        <h3 class="portfolio__title">IKAC Works - A Freelancing Application - MERN</h3><br>
+        <a
+          href="https://github.com/Kamaleshwaran11/Freelance-MERN.git"
+          class="button button--flex button--small portfolio__button"
+        >
+          GitHub Repository
+          <i class="uil uil-external-link-alt button__icon"></i>
+        </a>
+        <!--a
+          href="https://kamaleshwaran11.github.io/Freelance-MERN.git/"
+          class="button button--flex button--small portfolio__button"
+        >
+          Project
+          <i class="uil uil-external-link-alt button__icon"></i>
+        </a-->
+      </div>
+    </div>
+       <!-- ------------------------portfolio 4-------------------- -->
+    <div class="portfolio__content grid">
+      <img src="assets/img/portfolio4.png" class="portfolio__img" />
+
+      <div class="portfolio__data">
+        <h3 class="portfolio__title">Employee Management System</h3>
+        <br>
+        <a
+          href="https://github.com/Kamaleshwaran11/Employee-Management-System.git"
+          class="button button--flex button--small portfolio__button"
+        >
+          GitHub Repository
+          <i class="uil uil-external-link-alt button__icon"></i>
+        </a>
+      </div>
+    </div>
+    <!-- ------------------------portfolio 4-------------------- -->
+    <div class="portfolio__content grid">
+      <img src="assets/img/portfolio3.png" class="portfolio__img" />
+
+      <div class="portfolio__data">
+        <h3 class="portfolio__title">E-Commerce Application on IBM Cloud Foundry</h3><br>
+        <a
+          href="https://github.com/Kamaleshwaran11/IBM_E-COMMERCE_WEB.git"
+          class="button button--flex button--small portfolio__button"
+        >
+          GitHub Repository
+          <i class="uil uil-external-link-alt button__icon"></i>
+        </a>
+        <a
+          href="https://kamaleshwaran11.github.io/IBM_E-COMMERCE_WEB/"
+          class="button button--flex button--small portfolio__button"
+        >
+          Project
+          <i class="uil uil-external-link-alt button__icon"></i>
+        </a>
+      </div>
+    </div>
+    
             <! -- ------------------------portfolio 3-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
+            <div class="portfolio__content grid">
               <img src="assets/img/portfolio2.png" class="portfolio__img" />
       
               <div class="portfolio__data">
-                <h3 class="portfolio__title">Whaling in CyberSecurity</h3>
-                <p class="portfolio__description">
-                  Whaling targets high-level executives with personalized phishing attacks to steal sensitive data or authorize fraud. It exploits detailed information, leading to severe financial and reputational harm. Effective prevention includes executive training, strong email security, and multi-factor authentication.
-                </p>
+                <h3 class="portfolio__title">Whaling in CyberSecurity</h3><br>
                 <a
                   href="https://github.com/Kamaleshwaran11/Whaling.git"
                   class="button button--flex button--small portfolio__button"
@@ -681,35 +723,10 @@ strives to be the preferred platform for both clients and freelancers.<br>
               </div>
             </div>
       
-            <!-- ------------------------portfolio 4-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio3.png" class="portfolio__img" />
-      
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">E-Commerce Application on IBM Cloud Foundry</h3>
-                <p class="portfolio__description">
-                  This project develops an E-Commerce Application on IBM Cloud Foundry, enabling users to browse products, manage shopping carts, and complete purchases. The front-end built with HTML, CSS, JS, and back-end with Java Spring Boot, handles product data and orders via REST APIs, while IBM Cloud services provide storage, authentication, and scalability. 
-                </p>
-                <a
-                  href="https://github.com/Kamaleshwaran11/IBM_E-COMMERCE_WEB.git"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://kamaleshwaran11.github.io/IBM_E-COMMERCE_WEB/"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Project
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
             
       
             <!-- ------------------------portfolio 5-------------------- -->
-            <!--div class="portfolio__content grid swiper-slide">
+            <!--div class="portfolio__content grid">
               <img src="assets/img/portfolio4.png" class="portfolio__img" />
       
               <div class="portfolio__data">
@@ -728,16 +745,9 @@ strives to be the preferred platform for both clients and freelancers.<br>
             </div-->
           </div>
       
-          <!-- Add arrows -->
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
+         
       
-          <!-- Add pagination -->
-          <div class="swiper-pagination"></div>
+          
         </div>
       </section>
 
@@ -827,12 +837,25 @@ strives to be the preferred platform for both clients and freelancers.<br>
     </div>
   </div>
 </section>
+<section class="publications section" id="publications">
+  <h2>PUBLICATIONS</h2>
+  <article>
+      <h3>1.Implementing and Evaluating Cross-Protocol Communication between IPv6 and IPv4 using NAT64</h3>
+      <p><strong>Journal:</strong> International Journal of Creative Research Thoughts (IJCRT)</p>
+      <p><strong>Publication Date:</strong> March 31, 2025</p>
+      <p><strong>Volume & Issue:</strong> Vol. 13, Issue 3</p>
+      <p><strong>Impact Factor:</strong> 7.97 (Google Scholar)</p>
+      <p><strong>UGC Approved:</strong> Yes (Journal No: 49023)</p>
+      <p><strong>Paper ID:</strong> IJCRT25A3379</p>
+      <a href="https://www.ijcrt.org/papers/IJCRT25A3379.pdf" target="_blank">View Publication</a>
+  </article>
+</section>
 
 <!-- ACHIEVEMENTS -->
 <section class="achievements section" id="achievements">
   <h2>ACHIEVEMENTS</h2>
   <div class="achievements-item">
-    <h3>TCS National Qualifier Test (NQT)</h3>
+    <h3>TCS iON National Qualifier Test (NQT)</h3>
     <p>
       - <strong>Score:</strong> 63% <br>
       - <strong>Test Modules:</strong> Cognitive Skills, Programming <br>
@@ -926,7 +949,7 @@ strives to be the preferred platform for both clients and freelancers.<br>
 
             <div>
               <a
-                href=" mailto: shankarkamal52@gmail.com?subject=Testing out mailto! &body=This is only a test!"
+                href=" mailto: shankarkamal52@gmail.com"
                 class="button button--flex"
               >
                 Send Message
@@ -939,74 +962,64 @@ strives to be the preferred platform for both clients and freelancers.<br>
     </main>
 
     <!--================== Footer ===============-->
-    <footer class="footer">
-      <div class="footer__bg">
-        <div class="footer__container container grid">
-          <div>
-            <h1 class="footer__title">Kamaleshwaran.S</h1>
-            <span class="footer__subtitle">
-              Computer Science & Engineering Student
-            </span>
-          </div>
-    
-          <ul class="footer__links">
-            <li>
-              <a href="#qualification" class="footer__link">Qualification</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact" class="footer__link">Contact-Me</a>
-            </li>
-          </ul>
-    
-          <div class="footer__socials">
-            <a
-              href="https://www.instagram.com/mr_tamizhan_03/"
-              class="footer__social"
-              target="_blank"
-            >
-              <i class="fab fa-instagram"></i>
-            </a>
-          
-            <a
-              href="https://twitter.com/kamaleshwaran_3"
-              class="footer__social"
-              target="_blank"
-            >
-              <i class="fab fa-twitter"></i>
-            </a>
-          
-            <a
-              href="https://github.com/kamaleshwaran11"
-              class="footer__social"
-              target="_blank"
-            >
-              <i class="fab fa-github"></i>
-            </a>
-          
-            <a
-              href="https://www.linkedin.com/in/kamaleshwaran11/"
-              class="footer__social"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-    
-        <p class="footer__copy">&#169; Kamaleshwaran S. All rights reserved</p>
+<footer class="footer">
+  <div class="footer__bg">
+    <div class="footer__container container grid">
+      <div>
+        <h1 class="footer__title">Kamaleshwaran.S</h1>
+        <span class="footer__subtitle">
+          Computer Science & Engineering Student
+        </span>
       </div>
-    </footer>
-    
 
-    <!--================== SCROLL TOP ==================-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
-    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
-    <script src="assets/ptj.js"></script>
-  </body>
+      <div class="footer__socials">
+    
+        <a
+          href="https://www.instagram.com/mr_tamizhan_03/"
+          class="footer__social"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://twitter.com/kamaleshwaran_3"
+          class="footer__social"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://github.com/kamaleshwaran11"
+          class="footer__social"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kamaleshwaran11/"
+          class="footer__social"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+    <p class="footer__copy">&#169; Kamaleshwaran S. All rights reserved</p>
+  </div>
+</footer>
+
+<!--================== SCROLL TOP ==================-->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+<script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+<script src="assets/ptj.js"></script>
+</body>
 </html>
