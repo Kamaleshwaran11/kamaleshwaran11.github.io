@@ -1,3 +1,2 @@
-# kamaleshwaran11.github.io
-
-This is a Personal Portfolio Webpage
+# Personal Portfolio
+A modern personal portfolio website developed with HTML, CSS, and JavaScript, designed to highlight my projects, skills, and professional journey.
