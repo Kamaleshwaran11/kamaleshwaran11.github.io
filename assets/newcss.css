@@ -24,6 +24,12 @@
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
+  /*========= Custom Card/Shadow Colors ==========*/
+  --card-background: #fff;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --primary-color: #007bff;
+
   /*========= Font and typography ===========*/
   --body-font: "Poppins", sans-serif;
 
@@ -696,25 +702,36 @@ img {
 
 /*================== Portfolio ==================*/
 
-/*.portfolio__container {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  justify-content: center;
-}*/
-.portfolio__container {
-  display: flex;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 1rem;
+
+.portfolio__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.portfolio-card{
+background: #fff;
+border : 1px solid #ddd;
+padding: 10px;
 }
 
 @media (max-width: 768px) {
-  .portfolio__container {
-    grid-template-columns: 1fr;
+  .portfolio__grid {
+    grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns on smaller screens */
   }
+}
+
+@media (max-width: 480px) {
+  .portfolio__grid {
+    grid-template-columns: 1fr; /* Adjust to 1 column on very small screens */
+  }
+}
+
+.project__container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .portfolio__content {
