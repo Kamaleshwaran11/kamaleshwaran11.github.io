@@ -7,8 +7,7 @@ This website showcases my projects, technical skills, certifications, and profes
 
 - Clean and responsive design
 - Projects with GitHub repository links
-- Sections for skills, education, and certifications
-- Dark mode support
+- Sections for skills, education, certifications, and more
 - Smooth navigation and animations
 
 ## 🚀 Built With
@@ -22,22 +21,24 @@ This website showcases my projects, technical skills, certifications, and profes
 Check out the live version here:  
 [🔗 View Portfolio](https://kamaleshwaran11.github.io/)
 
-
 ## 📑 How to Use
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/kamaleshwaran11/kamaleshwaran11.github.io.git
    ```
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-
-2.Open the project in your code editor.
-
-3.Open the index.html file in a browser.
+2. Open the project in your code editor.
+3. Open the `index.html` file in a browser.
 
 ## ✨ Contact
+
 If you like my work or want to collaborate, feel free to connect with me!
 
+- [LinkedIn](https://www.linkedin.com/in/kamaleshwaran-s)
+- [Email](mailto:shankarkamal52@gmail.com)
+
 ## 📌 Note
+
 This project is for personal portfolio purposes.
 
 Feel free to fork and customize it for your own use!

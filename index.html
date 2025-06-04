@@ -5,27 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kamaleshwaran - Personal Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/img/Pro - Copy.jpg" />
     <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/newcss.css" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
     
       <!--- Other meta tags and links -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
   </head>
-<div class="site-wrap">
-  <div class="site-mobile-menu">
-    <div class="site-mobile-menu-header">
-      <div class="site-mobile-menu-close mt-3">
-        <span class="icon-close2 js-menu-toggle"></span>
-      </div>
-    </div>
-    <div class="site-mobile-menu-body"></div>
-  </div>
-</div>
-  <body oncontextmenu="return false">
+
+  <body>
+   
     <header class="header" id="header">
         <nav class="nav container">
             
@@ -184,236 +176,110 @@
   <h2 class="section__title">SKILLS</h2>
   <span class="section__subtitle">My technical level</span>
 
-  <div class="skills__container container grid">
-    <div>
-      <!--==================== Programming Languages =================-->
-      <div class="skills__content skills__open">
-        <div class="skills__header">
-          <i class="fas fa-code skills__icon"></i>
-
-          <div>
-            <h1 class="skills__title">Programming Languages</h1>
-          </div>
-
-          <i class="uil uil-angle-down skills__arrow"></i>
-        </div>
-
-        <!-- Skill List -->
-        <div class="skills__list grid">
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fa-brands fa-java"></i>
-              <h3 class="skills__name">Java</h3>
-            </div>
-          </div>
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fa-brands fa-python"></i>
-              <h3 class="skills__name">Python</h3>
-            </div>
-          </div>
-          <div class="skills__data">
-            <div class="skills__titles">
-                <i class="fa-brands fa-html5"></i> <!-- Use appropriate icon for HTML -->
-                <i class="fa-brands fa-css3-alt"></i> <!-- Use appropriate icon for CSS -->
-                <h3 class="skills__name">Web Development: HTML, CSS</h3>
-            </div>
-        </div>
-
-         
-        </div>
-      </div>
-
-      <!--==================== Frameworks =================-->
-      <!--div class="skills__content skills__close">
-        <div class="skills__header">
-          <i class="fas fa-layer-group skills__icon"></i>
-
-          <div>
-            <h1 class="skills__title">Frameworks</h1>
-          </div>
-
-          <i class="uil uil-angle-down skills__arrow"></i>
-        </div>
-        <div class="skills__list grid">
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fa-brands fa-java"></i>
-              <h3 class="skills__name">Spring Boot</h3>
-            </div>
-          </div>
-
-          <!--div class="skills__data">
-            <div class="skills__titles">
-              <i class="fa-brands fa-python"></i>
-              <h3 class="skills__name">Flask</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div-->
-
-    <div>
-      <!--==================== Databases =================-->
-      <div class="skills__content skills__close">
-        <div class="skills__header">
-          <i class="fas fa-database skills__icon"></i>
-
-          <div>
-            <h1 class="skills__title">Databases</h1>
-          </div>
-
-          <i class="uil uil-angle-down skills__arrow"></i>
-        </div>
-
-        <!-- Skill List -->
-        <div class="skills__list grid">
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fas fa-database"></i>
-              <h3 class="skills__name">MySQL</h3>
-            </div>
-          </div>
-        
-
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fa-solid fa-database"></i>
-              <h3 class="skills__name">MongoDB</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--==================== Version Control =================-->
-      <div class="skills__content skills__close">
-        <div class="skills__header">
-          <i class="fas fa-gear skills__icon"></i>
-
-          <div>
-            <h1 class="skills__title">Version Control</h1>
-          </div>
-
-          <i class="uil uil-angle-down skills__arrow"></i>
-        </div>
-        <div class="skills__list grid">
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fa-brands fa-git-alt"></i>
-              <h3 class="skills__name">Git</h3>
-            </div>
-          </div>
-
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fa-brands fa-github"></i>
-              <h3 class="skills__name">GitHub</h3>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="skills__container container grid" style="gap: 2rem;">
+    <!-- Programming Languages -->
+    <div class="skills__card">
+      <h3 class="skills__card-title"><i class="fas fa-code"></i> Programming Languages</h3>
+      <ul class="skills__card-list">
+        <li><i class="fa-brands fa-java"></i> Java</li>
+        <li><i class="fa-brands fa-python"></i> Python</li>
+        <li>
+          <i class="fa-brands fa-html5"></i> HTML,
+          <i class="fa-brands fa-css3-alt"></i> CSS
+        </li>
+      </ul>
     </div>
 
-    <div>
+    <!-- Databases -->
+    <div class="skills__card">
+      <h3 class="skills__card-title"><i class="fas fa-database"></i> Databases</h3>
+      <ul class="skills__card-list">
+        <li><i class="fas fa-database"></i> MySQL</li>
+        <li><i class="fa-solid fa-database"></i> MongoDB</li>
+      </ul>
+    </div>
 
-       <!--==================== Tools =================-->
-      <div class="skills__content skills__close">
-        <div class="skills__header">
-          <i class="fas fa-tools skills__icon"></i>
+    <!-- Version Control -->
+    <div class="skills__card">
+      <h3 class="skills__card-title"><i class="fas fa-gear"></i> Version Control</h3>
+      <ul class="skills__card-list">
+        <li><i class="fa-brands fa-git-alt"></i> Git</li>
+        <li><i class="fa-brands fa-github"></i> GitHub</li>
+      </ul>
+    </div>
 
-          <div>
-            <h1 class="skills__title">Tools</h1>
-          </div>
+    <!-- Tools -->
+    <div class="skills__card">
+      <h3 class="skills__card-title"><i class="fas fa-tools"></i> Tools</h3>
+      <ul class="skills__card-list">
+        <li><i class="fas fa-tools"></i> Maven, Gradle</li>
+        <li><i class="fas fa-paper-plane"></i> Postman API</li>
+      </ul>
+    </div>
 
-          <i class="uil uil-angle-down skills__arrow"></i>
-        </div>
-
-        <!-- Skill List -->
-        <div class="skills__list grid">
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fas fa-tools"></i>
-              <h3 class="skills__name">Maven, Gradle</h3>
-            </div>
-          </div>
-
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fas fa-paper-plane"></i>
-              <h3 class="skills__name">Postman API</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--==================== DSA =================-->
-      <!--div class="skills__content skills__close">
-        <div class="skills__header">
-          <i class="fas fa-brain skills__icon"></i>
-
-          <div>
-            <h1 class="skills__title">Algorithms & Data Structures</h1>
-          </div>
-
-          <i class="uil uil-angle-down skills__arrow"></i>
-        </div>
-
-        <!-- Skill List -->
-        <!--div class="skills__list grid">
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fas fa-code-branch"></i>
-              <h3 class="skills__name">DSA (Data Structures and Algorithms)</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--==================== Productivity Tools =================-->
-      <div class="skills__content skills__close">
-        <div class="skills__header">
-          <i class="fas fa-tools skills__icon"></i>
-
-          <div>
-            <h1 class="skills__title">Productivity Tools</h1>
-          </div>
-
-          <i class="uil uil-angle-down skills__arrow"></i>
-        </div>
-
-        <!-- Skill List -->
-        <div class="skills__list grid">
-          <div class="skills__data">
-            <div class="skills__titles">
-              <i class="fa-solid fa-file-word"></i>
-              <h3 class="skills__name">MS Office(Microsoft Office)</h3>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Productivity Tools -->
+    <div class="skills__card">
+      <h3 class="skills__card-title"><i class="fa-solid fa-file-word"></i> Productivity Tools</h3>
+      <ul class="skills__card-list">
+        <li><i class="fa-solid fa-file-word"></i> MS Office (Microsoft Office)</li>
+      </ul>
     </div>
   </div>
-</section>
 
-      
+  <style>
+  .skills__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+  }
+  .skills__card {
+    background: var(--container-color, white);
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  .skills__card:hover {
+    transform: translateY(-5px);
+  }
+  .skills__card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  .skills__card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .skills__card-list li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  </style>
+  </br>
+</section>
 
       <!--==================== Qualifications ==================-->
 
+
       <section
-        class="qualification__section service__section"
-        id="qualification"
-      >
+        class="qualification__section service__section" id="qualification">
         <h2 class="section__title">QUALIFICATION</h2>
         <span class="section__subtitle">My personal journey</span>
 
-        <div
-          class="qualification__container container grid services__container"
-        >
+        <div class="qualification__container container grid services__container">
           
-        <div
-          class="qualification__button button--flex qualification__active"
-          data-target="#education"
-        >
+        <div class="qualification__button button--flex qualification__active" data-target="#education">
           <i class="uil uil-graduation-cap qualification__icon"></i>
           Education
         </div>
@@ -823,18 +689,68 @@
 
 <!-- PUBLICATIONS -->
 <section class="publications section" id="publications">
-  <h2>PUBLICATIONS</h2>
-  <article>
-      <h3>1. Implementing and Evaluating Cross-Protocol Communication between IPv6 and IPv4 using NAT64</h3>
-      <p><strong>Journal:</strong> International Journal of Creative Research Thoughts (IJCRT)</p>
-      <p><strong>Publication Date:</strong> March 31, 2025</p>
-      <p><strong>Volume & Issue:</strong> Vol. 13, Issue 3</p>
-      <p><strong>Impact Factor:</strong> 7.97 (Google Scholar)</p>
-      <p><strong>UGC Approved:</strong> Yes (Journal No: 49023)</p>
-      <p><strong>Paper ID:</strong> IJCRT25A3379</p>
-      <a href="https://www.ijcrt.org/papers/IJCRT25A3379.pdf" target="_blank">View Publication</a>
-  </article>
-  
+  <h2 class="section__title">PUBLICATIONS</h2>
+  <div class="publications__container container grid">
+    <div class="publications__card">
+      <h3 class="publications__title">Implementing and Evaluating Cross-Protocol Communication between IPv6 and IPv4 using NAT64</h3>
+      <ul class="publications__details">
+        <li><strong>Journal:</strong> International Journal of Creative Research Thoughts (IJCRT)</li>
+        <li><strong>Publication Date:</strong> March 31, 2025</li>
+        <li><strong>Volume & Issue:</strong> Vol. 13, Issue 3</li>
+        <li><strong>Impact Factor:</strong> 7.97 (Google Scholar)</li>
+        <li><strong>UGC Approved:</strong> Yes (Journal No: 49023)</li>
+        <li><strong>Paper ID:</strong> IJCRT25A3379</li>
+      </ul>
+      <a href="https://www.ijcrt.org/papers/IJCRT25A3379.pdf" target="_blank" class="publications__link">View Publication</a>
+    </div>
+  </div>
+</section>
+<style>
+  .publications__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .publications__card {
+    background: var(--container-color, #fff);
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    padding: 2rem 1.5rem;
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  .publications__card:hover {
+    transform: translateY(-5px);
+  }
+  .publications__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .publications__details {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+  }
+  .publications__details li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  .publications__link {
+    color: var(--first-color, #007bff);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 0.5rem;
+    transition: color 0.3s;
+  }
+  .publications__link:hover {
+    color: var(--title-color-dark, #0056b3);
+    text-decoration: underline;
+  }
+</style>
+
 <section class="coding-profiles section" id="coding-profiles">
   <h2 class="section__title">CODING PROFILES</h2>
   <span class="section__subtitle">Where I practice problem solving</span>
@@ -880,7 +796,7 @@
 }
 
 .coding__card {
-  background-color: var(--container-color);
+  background-color: var(--container-color, white);
   border-radius: 1rem;
   padding: 1.5rem;
   text-align: center;
@@ -912,7 +828,7 @@
 }
 </style>
 
-</section>
+
 
 <!-- ACHIEVEMENTS -->
 <section class="achievements section" id="achievements">
@@ -983,12 +899,10 @@
 <!--ORGANIZATIONS-->
 <section class="organizations section" id="organizations">
   <h2 class="section__title">ORGANIZATIONS</h2>
-  <div class="organization__container container grid">
-    <div class="organization__content">
+  <div class="organization__container container grid" style="gap: 2rem;">
+    <div class="organization__card">
       <h3 class="organization__title">BSC Hacking and Media Tec</h3>
-      <p>
-        <a href="https://bsc-hacking.my.canva.site/" target="_blank">Visit Website</a>
-      </p>
+      <a href="https://bsc-hacking.my.canva.site/" target="_blank" class="organization__link">Visit Website</a>
       <p><em>Operated under The Redline Group</em></p>
       <ul class="organization__list">
         <li><strong>Role:</strong> Team Member</li>
@@ -999,6 +913,49 @@
       </ul>
     </div>
   </div>
+  <style>
+    .organization__container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .organization__card {
+      background: var(--container-color, #fff);
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      padding: 2rem 1.5rem;
+      text-align: left;
+      transition: transform 0.2s;
+    }
+    .organization__card:hover {
+      transform: translateY(-5px);
+    }
+    .organization__title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .organization__link {
+      color: var(--first-color, #007bff);
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+    }
+    .organization__link:hover {
+      color: var(--title-color-dark, #0056b3);
+      text-decoration: underline;
+    }
+    .organization__list {
+      margin: 1rem 0 0 0;
+      padding-left: 1.2rem;
+    }
+    .organization__list li {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+  </style>
 </section>
 
       <!--===================== Contact Me =====================-->
