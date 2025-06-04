@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KAMALESHWARAN.S</title>
-    <link rel="icon" href="assets/img/title.png" type="image/png"> <!-- Use a proper file format -->
-   
+    <title>Kamaleshwaran - Personal Portfolio</title>
     <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/newcss.css" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
@@ -17,14 +15,27 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
   </head>
-
+<div class="site-wrap">
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+</div>
   <body oncontextmenu="return false">
     <header class="header" id="header">
         <nav class="nav container">
             
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
-                
+          <li class="nav__item nav__item--brand" style="margin-right:auto;">
+            <span class="nav__brand" style="font-weight:bold; font-size:1.2rem; letter-spacing:1px; color:var(--title-color);">
+              Kamaleshwaran.S
+            </span>
+          </li>
                     <!-- Home -->
                     <li class="nav__item">
                         <a href="#home" class="nav__link">
@@ -39,19 +50,6 @@
                         </a>
                     </li>
 
-                    <!-- Skills -->
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i>SKILLS
-                        </a>
-                    </li>
-
-                    <!-- Qualification -->
-                    <li class="nav__item">
-                        <a href="#qualification" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i>QUALIFICATION
-                        </a>
-                    </li>
 
                     <!-- Projects -->
                     <li class="nav__item">
@@ -63,21 +61,16 @@
                     <!-- Experience -->
                     <li class="nav__item">
                         <a href="#experience" class="nav__link">
-                            <i class="uil uil-suitcase nav__icon"></i>EXPERIENCE & CERTIFICATIONS
+                            <i class="uil uil-suitcase nav__icon"></i>EXPERIENCE 
                         </a>
                     </li>
                     
                     <li class="nav__item">
-                      <a href="#publications" class="nav__link">
-                        <i class="uil uil-award nav__icon"></i>PUBLICATIONS & CODING PLATFORMS
+                      <a href="#certifications" class="nav__link">
+                        <i class="uil uil-award nav__icon"></i>CERTIFICATIONS
                       </a>
                     </li>
-                    <!--Achievements-->
-                    <li class="nav__item">
-                      <a href="#achievements" class="nav__link">
-                        <i class="uil uil-award nav__icon"></i>ACHIEVEMENTS & ORGANIZATIONS
-                      </a>
-                    </li>
+                  
 
                   
                    <!-- Contact-Me -->
@@ -157,9 +150,8 @@
       
           <div class="about__data">
             <p class="about__description">
-              As a dedicated and motivated B.E. Computer Science and Engineering student, I am eager to leverage my technical knowledge and problem-solving skills to contribute to innovative projects in the field of software development. My goal is to secure a challenging internship or entry-level position where I can apply and further develop my coding abilities, collaborate with talented professionals, and make a meaningful impact in the world of technology.
+              Recent graduate in Computer Science and Engineering with solid proficiency in backend development, database management, and software engineering. Proficient in developing projects of real-world use cases with Java, Python, and MySQL. Looking forward to translating technical know how and problem-solving skills into a challenging software development position while further expanding through practical learning and teamwork.
             </p>
-      
             <div class="about__info">
               <div>
                 <span class="about__info-title">8.1+</span>
@@ -989,22 +981,25 @@
 </section>
 
 <!--ORGANIZATIONS-->
-<section class="Organizations section" id="Organizations">
-  <h2>ORGANIZATIONS</h2>
-  <div class="organization-item">
-      <h3>BSC Hacking and Media Tec</h3>
-      <p><a href="https://bsc-hacking.my.canva.site/" target="_blank">Visit Website</a></p>
+<section class="organizations section" id="organizations">
+  <h2 class="section__title">ORGANIZATIONS</h2>
+  <div class="organization__container container grid">
+    <div class="organization__content">
+      <h3 class="organization__title">BSC Hacking and Media Tec</h3>
+      <p>
+        <a href="https://bsc-hacking.my.canva.site/" target="_blank">Visit Website</a>
+      </p>
       <p><em>Operated under The Redline Group</em></p>
-      <ul>
-          <li><strong>Role:</strong> Team Member</li>
-          <li><strong>Duration:</strong> July 2023 - May 2025</li>
-          <li>- Collaborate with an international team focusing on blockchain security and media technologies.</li>
-          <li>- Contribute to ethical hacking projects and digital media solutions.</li>
-          <li>- Participate in knowledge-sharing sessions and collaborative development initiatives.</li>
+      <ul class="organization__list">
+        <li><strong>Role:</strong> Team Member</li>
+        <li><strong>Duration:</strong> July 2023 - May 2025</li>
+        <li>Collaborated with an international team focusing on blockchain security and media technologies.</li>
+        <li>Contributed to ethical hacking projects and digital media solutions.</li>
+        <li>Participated in knowledge-sharing sessions and collaborative development initiatives.</li>
       </ul>
+    </div>
   </div>
 </section>
-
 
       <!--===================== Contact Me =====================-->
       <section class="contact section" id="contact">
