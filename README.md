@@ -34,7 +34,7 @@ Check out the live version here:
 
 If you like my work or want to collaborate, feel free to connect with me!
 
-- [LinkedIn](https://www.linkedin.com/in/kamaleshwaran-s)
+- [LinkedIn](https://www.linkedin.com/in/kamaleshwaran11)
 - [Email](mailto:shankarkamal52@gmail.com)
 
 ## 📌 Note
