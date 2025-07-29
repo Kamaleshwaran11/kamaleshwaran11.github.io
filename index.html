@@ -601,7 +601,7 @@
 
    <!-- Experience Section -->
    <section class="experience section" id="experience">
-    <h2 class="section__title">EXPERIENCE</h2>
+    <h2 class="section__title">EXPERIENCE [Internship]</h2>
     <div class="experience__container container grid">
         <!-- Experience Item -->
         <div class="experience__content">
@@ -1100,7 +1100,12 @@
       </div>
     </div>
 
-    <p class="footer__copy">&#169; Kamaleshwaran S. All rights reserved</p>
+    <p class="footer__copy">&#169; Kamaleshwaran S. All rights reserved 2025<br>
+    Last updated: <span id="last-updated"></span><br>
+      This portfolio is a personal project and does not represent any organization.
+    <script>
+      document.getElementById('last-updated').textContent = new Date().toLocaleDateString();
+    </script>
   </div>
 </footer>
 
